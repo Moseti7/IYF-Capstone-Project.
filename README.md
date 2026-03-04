@@ -1,7 +1,9 @@
 # IYF-Capstone-Project.
 Teaching and examination management platform designed for secondary school and private centers.
-#PURPOSE OF THE PROJECT is to provide a centralized digital platform for secondary schools and private tuitioncenters to manage onl;ine teaching and examination efficiently.
-#Problem it solves Many secondary schools and private tuition centers rely on multiple disconnected tools such as WhatsApp, Zoom, Google Meet, Google Forms, and manual record books to manage teaching and examinations. This creates several challenges:
+#PURPOSE OF THE PROJECT
+It is to provide a centralized digital platform for secondary schools and private tuitioncenters to manage onl;ine teaching and examination efficiently.
+#Problem it solves
+Many secondary schools and private tuition centers rely on multiple disconnected tools such as WhatsApp, Zoom, Google Meet, Google Forms, and manual record books to manage teaching and examinations. This creates several challenges:
 Poor organization of class links and learning materials
 Difficulty tracking student attendance and performance
 Manual recording and calculation of exam results
@@ -75,7 +77,7 @@ Follow the steps below to run EduLink AI locally:
 1️⃣ Clone the Repository
 Bash
 Copy code
-git clone https://github.com/your-username/iyf-capstone-project.git
+git clone https://github.com/https://github.com/Moseti7/iyf-capstone-project.git
 cd iyf-capstone-project
 2️⃣ Install Dependencies
 Make sure you have Node.js (v18 or later) installed.
