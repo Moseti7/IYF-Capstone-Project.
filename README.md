@@ -70,3 +70,41 @@ This makes your project look:
 ✔ Structured
 ✔ Professional
 ✔ Complete
+#Installation & Setup Steps
+Follow the steps below to run EduLink AI locally:
+1️⃣ Clone the Repository
+Bash
+Copy code
+git clone https://github.com/your-username/iyf-capstone-project.git
+cd iyf-capstone-project
+2️⃣ Install Dependencies
+Make sure you have Node.js (v18 or later) installed.
+Then run:
+Bash
+Copy code
+npm install
+This will install all required project dependencies.
+3️⃣ Set Up Environment Variables
+Create a .env file in the root of the project and add the following:
+Environment
+Copy code
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_HUGGINGFACE_API_KEY=your_huggingface_api_key
+Replace the values with your actual credentials from:
+Supabase dashboard
+Hugging Face account
+4 Run the Development Server
+Start the project locally:
+Bash
+Copy code
+npm run dev
+The app will run at:
+Copy code
+
+http://localhost:5173
+5️⃣ Build for Production (Optional)
+To create a production build:
+Bash
+Copy code
+npm run build
