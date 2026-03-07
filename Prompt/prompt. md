@@ -1,0 +1,173 @@
+
+Design a modern virtual learning platform and school management system called ThinkDifferent Virtual School with the school motto:
+“To Infinite Learning and Beyond.”
+The platform should support online education for Kenyan and international learners and accommodate multiple curricula including:
+Kenya 8-4-4 system (Form 3 and Form 4)
+Competency Based Curriculum (CBC) from Grade 1 to Junior Secondary
+IGCSE-style international learning
+The system should be secure, scalable, mobile-friendly, and cloud-based, supporting Google Meet or similar video learning integrations.
+1. Student Admission & Registration Module
+Create a Learner Registration System with the following fields:
+Primary Key: Registration Number (auto-generated)
+Fields:
+Registration Number (Auto-generated)
+Full Name (as it should appear on certificate)
+Gender
+Phone Number
+Email Address
+Date of Birth
+Place of Residence
+Passport Photo Upload
+Level of Education / Current Grade
+2. Emergency Contact / Guardian Information
+Each student must provide guardian or parent details.
+Fields:
+Emergency Contact ID (Primary Key)
+Student Registration Number (Foreign Key)
+Parent / Guardian Full Name
+Phone Number
+Relationship to Student
+Example:
+Father
+Mother
+Guardian
+Sponsor
+3. Payment Management System
+Include a school fees payment module.
+Fields:
+Payment ID (Primary Key)
+Student Registration Number (Foreign Key)
+Date of Payment
+Amount Paid
+Payment Method (M-Pesa, Bank, Card)
+Payment Reference
+Fee Structure:
+Monthly Fee: KSh 1500
+3-Month Offer: KSh 3500
+System features:
+Payment history
+Fee balance tracking
+Payment confirmation
+Receipt generation
+4. Teacher / Volunteer Registration
+Teachers may join as online volunteer tutors.
+They will be compensated KSh 500 per hour.
+Teacher registration fields:
+Primary Key: Teacher ID
+Fields:
+Full Name
+Gender
+Phone Number
+Email
+TSC Number
+Subject Specialization
+Professional Description / Bio
+Availability Schedule
+Years of Experience
+5. Online Class Attendance System
+Students joining a class must sign the digital register.
+Features:
+Register only active during class time
+Timestamp when student joins
+Teacher attendance dashboard
+Attendance statistics
+Late entry tracking
+6. Online Examination System
+The platform must include an online examination module.
+Features:
+Digital exams and quizzes
+Automatic grading
+Result generation
+Performance analytics
+Exam output:
+Marks
+Mean score
+Subject averages
+Student ranking
+Performance trends
+7. Report Form Generation
+Generate digital report forms including:
+Student Name
+Registration Number
+Subjects
+Scores
+Average
+Grade
+Teacher Remarks
+Principal Remarks
+Term performance summary
+Also include:
+Class statistics
+Performance graphs
+8. Subject Registration for National Exams
+Create a KNEC exam registration module.
+Students will select their intended national exam:
+Options:
+KCSE
+Qualifying Exams
+Equation
+KJSEA
+KPSEA
+Required fields:
+Registration Number
+Exam Type
+Entry Code
+First Attempt
+Repeater (All Subjects)
+Repeater (Partial)
+Birth Certificate Number
+National ID Number
+Parent Name
+Parent Phone Number
+9. Career Pathways Guidance
+Include a Career Advisory Section to guide students after completion.
+Topics:
+University pathways
+Technical & vocational careers
+Entrepreneurship
+Digital careers
+Scholarship opportunities
+Mentorship programs
+10. Meet the Team Section
+Create a leadership profile section including:
+Founder Co-founders Academic Director Technology Director Volunteer Teachers
+Each profile should include:
+Photo
+Name
+Title
+Biography
+Vision for education
+11. Photo Gallery
+Create a gallery section showing:
+Virtual classes
+Student achievements
+Online graduations
+Teacher activities
+School events
+12. Dashboard & Analytics
+Admin dashboard should show:
+Total students enrolled
+Active classes
+Teacher statistics
+Fee payments
+Attendance rate
+Exam performance
+Growth statistics
+13. Security Features
+Include:
+Secure login
+Student/Teacher/Admin roles
+Encrypted personal data
+Audit logs
+Two-factor authentication
+14. Technology Stack Suggestion
+The system may be built using:
+Frontend: React / Flutter
+Backend: Node.js / Django
+Database: PostgreSQL / MySQL
+Video Integration: Google Meet / Zoom API
+Payment: M-Pesa integration
+15. School Identity
+School Name: ThinkDifferent Virtual School
+Motto: “To Infinite Learning and Beyond.”
+Mission: Provide accessible, flexible, and technology-driven education that empowers learners to succeed academically and globally.
